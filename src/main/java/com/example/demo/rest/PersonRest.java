@@ -11,7 +11,7 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "http://127.0.0.1:5500")
 @RequestMapping("/api/person")
 public class PersonRest {
 
